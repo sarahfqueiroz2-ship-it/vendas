@@ -2,7 +2,7 @@ from produto import Produto
 
 class Item_Venda:
     
-    def __init__(self, produto:Produto, quantidade: int):
+    def __init__(self, produto: Produto, quantidade: int):
         self._produto = produto
         self._quantidade = quantidade
         self._valor = self._calcular_subtotal()
